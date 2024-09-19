@@ -1,0 +1,50 @@
+body {
+    color: #333333; /* Koyu gri metin rengi */
+    background-color: #ffffff; /* Beyaz arka plan */
+}
+
+.stApp {
+    background-color: #ffffff;
+}
+
+.stButton>button {
+    color: #ffffff; /* Beyaz buton metni */
+    background-color: #007bff; /* Mavi buton arka planı */
+    border-radius: 4px;
+}
+
+.stSelectbox {
+    color: #333333;
+}
+
+.stSelectbox > div > div > div {
+    background-color: #ffffff;
+}
+
+/* Başlıkları ve normal metinleri koyu gri yap */
+h1, h2, h3, h4, h5, h6, p, .stMarkdown, div.stText {
+    color: #333333 !important;
+    font-weight: 400 !important;
+}
+
+/* Tablo başlıklarını ve içeriğini koyu gri yap */
+.dataframe th, .dataframe td {
+    color: #333333 !important;
+    font-weight: 400 !important;
+}
+
+/* Selectbox metinlerini koyu gri yap */
+.stSelectbox > div > div > div > div {
+    color: #333333 !important;
+    font-weight: 400 !important;
+}
+
+/* Streamlit'in varsayılan büyütme düğmesini gizle */
+button[title="View fullscreen"] {
+    display: none !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
